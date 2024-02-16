@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+    int sum=0,i=1,num;
+    printf("Enter the number between 1 and 100:");
+    scanf("%d",&num);
+   
+     do 
+     {
+        if(num % i ==0)
+        sum+=i;
+        i++;
+     }
+     while(i<=(num/2)); // to take only proper divisors excluding the number
+
+     if (sum == num)
+    { 
+      printf("The number: %d is a perfect number",num);
+      }
+     else
+     {
+      printf("The number: %d is not a perfect number",num);
+      }
+     return 0;
+}
