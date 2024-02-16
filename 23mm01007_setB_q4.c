@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int num,i,j,p,k,count;
+    int num,i,j,p,k,count=0;
     printf("Enter the number:");
     scanf("%d",num);
     for(i=4;i<=num;i++)
