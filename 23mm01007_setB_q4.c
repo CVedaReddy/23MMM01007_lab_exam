@@ -6,7 +6,7 @@ int main()
     scanf("%d",num);
     for(i=4;i<=num;i++)
     {
-        for(j=2;i<i;j++)
+        for(j=2;j<i;j++)
         {
             if((i%j)==0)
             {
